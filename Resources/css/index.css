@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D7D2cb70;
+}
+
+header {
+    height: 80px;
+    border-bottom: 0.5px solid #4a4a4a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+header h2 {
+    margin-left: 40px;
+    font-size: 1.4rem;
+}
+
+nav ul {
+    display: flex;
+    margin:0 40px;
+    list-style: none;
+}
+
+li {
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color:#471c0e89;
+}
+
+.booking {
+    width: 100%;
+    height: 500px;
+    border: 1px solid;
+    margin-top: 80px;
+    background-image: url('../images/vecteezy_autumn-natural-background-illustration_24602602.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking p {
+    width: 50%;
+    height: 30%;
+    text-align: center;
+    font-size: 2.7rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: olive;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: helvetica;
+}
+
+.booking button {
+    width:30%;
+    height: 10%;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px black;
+    margin-top: 3px;
+    background-color: rgba(48,22,6, 1);
+    color:#c66f18
+}
+
+.booking button:hover {
+    cursor: pointer;
+    background-color: rgba(48,22,6, 0.7);
+}
+
+.booking button:active {
+    background-color: #bb4e0b7b;
+    color: whitesmoke
+}
+
+.mission {
+    display: flex;
+    height: 500px;
+    margin: 30px auto 0 auto;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.content {
+    width: 40%;
+    height: 100%;
+    line-height: 1.4;
+}
+
+.content div {
+    width: 85%;
+}
+
+.content h2 {
+    margin-top: 40px;
+    font-size: 2.2rem;
+    display: inline-block;
+    border-bottom: 1px double;
+    color: #471c0e89;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content p {
+    font-size: 0.95rem;
+    color: #c66f18;
+    font-family: Helvetica, sans-serif;
+}
+
+.content h3 {
+    font-size: 1.15rem;
+    margin: 5px 0;
+    color: #BB4E0B;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img {
+    width: 60%;
+    height: 100%;
+    background-image: url('../images/vecteezy_autumn-trees-park-background_26750194.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.8);
+}
+
+.img:hover {
+    box-shadow: 4px 4px;
+}
+
+.testimonials {
+    margin-top: 64px;
+    height: 500px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.testimonials h2 {
+    height: 25%;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 35px;
+    color: #471c0e89;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.testimonials div {
+    border: 1px solid;
+    height: 20%;
+    margin: 1% auto;
+    width: 85%;
+    border-radius: 8px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+
+.testimonials div:hover {
+    box-shadow: 4px 4px;
+}
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+    background-color: whitesmoke;
+}
+
+footer p {
+    margin: 0 20px;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 612px) {
+    .booking p {
+        font-size: 2rem;
+    }
+
+    html {
+        font-size: 14px;
+    }
+
+    .mission {
+        flex-direction: column; 
+        height: 800px;
+    }
+
+    .content {
+        width: 100%;
+        height: 40%;
+    }
+
+    .content div {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content h2 {
+        margin-top: 0;   
+    }
+
+    .img {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .testimonials {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 409px) {
+    .content div {
+        height: 100%;
+    }  
+
+    header h2 {
+        margin-left: 30px;
+        font-size: 1.2rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+
+    .mission {
+        height: 550px;
+    }
+
+    .content {
+        height: 50%;
+    }
+
+    .img {
+        height: 50%;
+        margin-top: ;
+        border: 1px solid;
+    }
+
+    .testimonials {
+        margin-top: 32px;
+    }
+}
