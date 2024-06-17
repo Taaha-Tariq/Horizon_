@@ -73,6 +73,7 @@ a:active {
     padding: 10px;
     border-radius: 8px;
     font-family: helvetica;
+    border: 0.5px solid white;
 }
 
 .booking button {
@@ -264,7 +265,7 @@ footer p {
     }
 }
 
-@media only screen and (min-width: 901px) {
+@media only screen and (min-width: 920px) {
     .booking p {
        padding-top: 45px;
        border: 0.5px solid white;
