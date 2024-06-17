@@ -263,3 +263,12 @@ footer p {
         margin-top: 32px;
     }
 }
+
+@media only screen and (min-width: 901px) {
+    .booking p {
+       padding: 30px;
+       border: 0.5px solid white;
+    }
+
+    .content { padding-top: 40px}
+}
