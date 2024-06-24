@@ -201,6 +201,7 @@ footer p {
 @media only screen and (max-width: 612px) {
     .booking p {
         font-size: 2rem;
+        padding-top: 40px;
     }
 
     html {
@@ -241,6 +242,10 @@ footer p {
         height: 100%;
     }  
 
+    .booking p {
+        padding-top: 20px;
+    }
+
     header h2 {
         margin-left: 30px;
         font-size: 1.2rem;
@@ -260,7 +265,6 @@ footer p {
 
     .img {
         height: 50%;
-        margin-top: ;
         border: 1px solid;
     }
 
